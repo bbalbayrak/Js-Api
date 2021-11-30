@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BBA</title>
+<meta name="keyword" content="JavaScript">
+<meta name="description" content="BBA">
+<!--Fonts Google-->
+<link href="https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="global.css"> 
+<link rel="stylesheet" href="main.css">  
+<link rel="stylesheet" media="(max-width:768px)" href="tablet.css">
+<link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+
+
+</head>
+<body>
+<header class="bg-dark-blue">
+   
+   <div class="container">
+    <nav id="navbar">
+     <h1 class="heading-small" >Bilal Burak Albayrak</h1>
+     <ul>
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#training">Egitimler</a></li>
+        <li><a href="#courses">kurslar</a></li>
+         <li><a href="#contact">iletisim</a></li>
+            
+        </ul>
+         </nav>
+   </div>
+    
+</header>
+<section id="home">
+<div class="name text-center">
+    <img src="image.jfif" alt="Bilal Burak Albayrak">
+    
+    <h2 class="heading-big">Bilal Burak Albayrak</h2>
+    <p>Computer Engineer</p>
+</div>
+<a href="#courses" class=" btn btn-primary">Kurslara Git </a>
+</section>
+<section id="training" class="bg-dark-blue">
+  <h3 class="text-center heading-medium"> Egitimler </h3>  
+  <div class="items">
+      <article class="item">
+        <i class="fas fa-university"></i>
+        <h3>Offline Egitimler</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate.</p>
+      </article>
+      <article class="item">
+        <i class="fas fa-university"></i>
+        <h3>Online Egitimler</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate.</p>
+      </article>
+      <article class="item">
+        <i class="fas fa-university"></i>
+        <h3>Uzaktan Egitimler</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate.</p>
+      </article>
+  </div>   
+</section>
+<footer id="contact" class="bg-dark-blue">
+  <div class="contact-form">
+    <form>
+    <h4 class="text-center heading-medium">Iletisim</h4>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="name">
+    </div>
+    
+    
+    <div class="form-group">
+      
+      <label for="email">E-Mail</label>
+      <input type="email" 
+      class="form-control" 
+      name="email" 
+      id="email" 
+      placeholder="E-Mail">
+    </div>
+    
+    <div class="form-group">
+      
+      <label for="message">Message</label>
+     
+      <textarea name="message" 
+      id="message" 
+      class="form-control" 
+      rows="5"
+      placeholder="Your Message...">
+      </textarea>
+    </div>
+    <button id="button" type="submit" class="btn btn-block">Sent</button>
+    </form>
+    <ul>
+      <li>
+        <a href="#"><i class="fab fa-twitter" > </i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-instagram" > </i></a>
+      </li>
+    </ul>
+  </div>
+
+</footer>
+</body>
+</html>
